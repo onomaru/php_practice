@@ -57,7 +57,6 @@ echo '最下位桁は'.($stdin%10).'です';
 echo "<br>\n";
 
 //8
-//int() float()だとダメ？キャストするとエラーが出る
 echo 'x:';
 $x = floatval(trim(fgets(STDIN)));
 echo 'y:';
