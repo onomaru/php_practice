@@ -5,6 +5,6 @@ $x = intval(trim(fgets(STDIN)));
 $y = $x+5;
 $z = $x-5;
 echo '+-5の乱数:';
-echo rand($y,$z);
+echo mt_rand($z,$y);
 echo "\n";
 ?>
