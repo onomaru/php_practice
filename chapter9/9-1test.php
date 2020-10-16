@@ -21,7 +21,7 @@ echo 'Y座標';
 $y = doubleval(trim(fgets(STDIN)));
 $q = new Coordinate($x, $y);
 
-echo ($p==$q)?'p==qです。':'p!=qです';
+echo ($p===$q)?'p==qです。':'p!=qです';
 echo "\n";
 echo ($p->getX() == $q->getX() && $p->getY() == $p->getY())?'pとqは等しいです':'pとqは等しくありません';
 echo "\n";
