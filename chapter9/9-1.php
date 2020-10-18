@@ -42,7 +42,6 @@ class Coordinate
 
 // echo 'p = {'.$p->getX().','.$p->getY()."}\n";
 
-
 // $q = $p;
 // $q->set(9.9, 9.9);
 // echo 'p = {'.$p->getX().','.$p->getY()."}\n";

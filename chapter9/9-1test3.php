@@ -5,6 +5,7 @@ require '9-1.php';
 echo '座標は何個；';
 $n = intval(trim(fgets(STDIN)));
 
+$a = [];
 for ($i = 0;$i < $n;$i++) {
     $a[$i] = new Coordinate(5.5, 7.7);
 }
