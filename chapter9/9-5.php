@@ -58,7 +58,7 @@ $p->set(1999, 12, 31);
 $q = $suzuki->getOpenDay();
 echo '口座開設日:'.$q;
 ////////////////////////////////
-echo '口座番号を入力せよ'."\n";
+echo '口座情報を入力せよ'."\n";
 echo '名義:';
 $name = strval(trim(fgets(STDIN)));
 echo '番号:';
