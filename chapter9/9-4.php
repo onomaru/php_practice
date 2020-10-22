@@ -17,6 +17,9 @@ class Day
 
     public function __construct0()
     {
+        $this->year = date("Y");
+        $this->month = date("n");
+        $this->date = date("j");
     }
 
     // public function __construct1($year)
