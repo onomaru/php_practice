@@ -9,12 +9,12 @@ class Account
     private $balance;
     private $openday;
 
-    public function __construct($n, $num, $z, $d)
+    public function __construct($n, $num, $z)
     {
         $this->name = $n;
         $this->no = $num;
         $this->balance = $z;
-        $this->openday = new Day($d);
+        // $this->openday = new Day($d);
     }
 
     public function getName()
