@@ -2,7 +2,7 @@
 
 function printDouble($x, $n, $f)
 {
-    $format = '%'.$n.'d'.$f.'f';
+    $format = '%'.$n.'d.'.$f.'f';
     printf($format, $x);
     echo "\n";
 }
